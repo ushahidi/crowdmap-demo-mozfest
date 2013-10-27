@@ -1,0 +1,14 @@
+<?php
+
+	class config {
+		// Personality.
+		public static $siteName = 'Crowdmap at Mozilla Festival 2013';
+
+		// Crowdmap API keys. Register at https://api.crowdmap.com/developers/v1
+		public static $apiSecret = '';
+		public static $apiKey = '';
+		public static $apiEndpoint = 'https://api.crowdmap.com/v1';
+
+		// Which map to query for photos.
+		static $mapID = 3197;
+	}
